@@ -584,7 +584,7 @@ function randomColor(options) {
 function randomWord() {
 	if (randomWords.length === 0) return "";
 	if (randomWords.length === 1) return randomWords[0];
-	return randomWords[(Math.random() * randomWords.length) | 0];
+	return randomWords[(Math.random() *3) | 0];
 }
 
 function whiteOrGold() {
